@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class SMSActivity extends AppCompatActivity {
 
 
     private EditText txtMobile;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sms);
         txtMobile = (EditText)findViewById(R.id.mblTxt);
         txtMessage = (EditText)findViewById(R.id.msgTxt);
         btnSms = (Button)findViewById(R.id.btnSend);
